@@ -27,6 +27,8 @@ $(call inherit-product, vendor/axxion/config/gsm.mk)
 # Inherit from hardware-specific part of the product configuration
 $(call inherit-product, device/lge/mako/device.mk)
 
+TARGET_BOOTANIMATION_SIZE := 720
+
 PRODUCT_NAME := axxion_mako
 PRODUCT_DEVICE := mako
 PRODUCT_BRAND := google
